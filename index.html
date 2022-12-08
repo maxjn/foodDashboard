@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
+    <!-- *CSS---------------------------------------------- -->
+    <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <!-- *JS---------------------------------------------- -->
+    <script defer src="dist/js/script.js"></script>
+    <title>Food Dashboard</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!--* ==================== Dashboard ================== -->
+        <header class="wrapper__dashboard dashboard">
+            <nav class="dashboard__menu-container">
+                <div class="dashboard__header">
+                    <h1 class="dashboard__logo">
+                        <a href="https://github.com/maxjn">My Github</a>
+                    </h1>
+                    <i class=" icon-bars dashboard__icon"></i>
+                </div>
+                <ul class="dashboard__menu menu">
+                    <li class="menu__item active">
+                        <a class="menu__item-link" href="https://github.com/maxjn">
+                            <span>Home</span>
+                        </a>
+                        <i class="icon-home"></i>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link" href="https://github.com/maxjn">
+                            <span>About</span>
+                        </a>
+                        <i class="icon-help-circle"></i>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link" href="https://github.com/maxjn">
+                            <span>Contact</span>
+                        </a>
+                        <i class="icon-mail"></i>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--* ==================== Dashboard Ends ================== -->
+
+        <!--* ==================== Main  ================== -->
+        <main class="wrapper__main main">
+            <header class="main__header">
+                <!--* ==================== Buttons  ================== -->
+                <div class="header__button-container">
+                    <a class="header__button" href="https://github.com/maxjn">Log in</a>
+                    <a class="header__button" href="https://github.com/maxjn">Sign up</a>
+                </div>
+                <!--* ==================== Buttons Ends ================== -->
+
+                <!--* ==================== Title  ================== -->
+                <div class="header__title-conrainer">
+                    <h2 class="header__main-title">Recipes</h2>
+                    <h3 class="header__secondary-title">For Developers</h3>
+                </div>
+                <!--* ==================== Header Ends ================== -->
+
+            </header>
+
+            <!--* ==================== Main ================== -->
+            <main class="main__main">
+
+                <!--* ==================== Cards ================== -->
+                <section class="cards">
+                    <h4 class="cards__title">Latest Recipes</h4>
+
+                    <div class="cards__container">
+                        <!-- *Card -->
+                        <article class="card">
+                            <img class="card__thumbnail" src="assets/img/stew.jpg" alt="stew">
+                            <div class="card__body">
+                                <h3 class="card__title">5 Bean Chili Stew</h3>
+                                <span class="card__author">Recipe by Mario</span>
+                            </div>
+                            <span class="card__time-badge"><i class="icon-clock"></i>25 MINS</span>
+                        </article>
+
+                        <article class="card">
+                            <img class="card__thumbnail" src="assets/img/noodles.jpg" alt="stew">
+                            <div class="card__body">
+                                <h3 class="card__title">Vege Noodles</h3>
+                                <span class="card__author">Recipe by Mario</span>
+                            </div>
+                            <span class="card__time-badge"><i class="icon-clock"></i>25 MINS</span>
+                        </article>
+
+                        <article class="card">
+                            <img class="card__thumbnail" src="assets/img/curry.jpg" alt="stew">
+                            <div class="card__body">
+                                <h3 class="card__title">Tufo Curry</h3>
+                                <span class="card__author">Recipe by Mario</span>
+                            </div>
+                            <span class="card__time-badge"><i class="icon-clock"></i>25 MINS</span>
+                        </article>
+
+                    </div>
+
+                    <h4 class="cards__title">Most Popular</h4>
+
+                    <div class="cards__container">
+                        <!-- *Cards -->
+
+                        <article class="card">
+                            <img class="card__thumbnail" src="assets/img/noodles.jpg" alt="stew">
+                            <div class="card__body">
+                                <h3 class="card__title">Vege Noodles</h3>
+                                <span class="card__author">Recipe by Mario</span>
+                            </div>
+                            <span class="card__time-badge"><i class="icon-clock"></i>25 MINS</span>
+                        </article>
+
+                        <article class="card">
+                            <img class="card__thumbnail" src="assets/img/stew.jpg" alt="stew">
+                            <div class="card__body">
+                                <h3 class="card__title">5 Bean Chili Stew</h3>
+                                <span class="card__author">Recipe by Mario</span>
+                            </div>
+                            <span class="card__time-badge"><i class="icon-clock"></i>25 MINS</span>
+                        </article>
+
+
+                        <article class="card">
+                            <img class="card__thumbnail" src="assets/img/curry.jpg" alt="stew">
+                            <div class="card__body">
+                                <h3 class="card__title">Tufo Curry</h3>
+                                <span class="card__author">Recipe by Mario</span>
+                            </div>
+                            <span class="card__time-badge"><i class="icon-clock"></i>25 MINS</span>
+                        </article>
+
+                    </div>
+                </section>
+                <!--* ==================== Cards Ends ================== -->
+
+            </main>
+            <!--* ==================== Main Ends ================== -->
+
+
+            <!--* ==================== Footer ================== -->
+            <footer class="main__footer footer">
+
+                <!--* ==================== Button  ================== -->
+                <div class="footer__button-container">
+                    <a href="https://github.com/maxjn" class="footer__button">Load more</a>
+                </div>
+                <!--* ==================== Button Ends ================== -->
+            </footer>
+            <!--* ==================== Footer Ends ================== -->
+        </main>
+        <!--* ==================== Main Ends ================== -->
+    </div>
+
+</body>
+
+</html>
