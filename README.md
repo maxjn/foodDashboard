@@ -1,6 +1,6 @@
 ### Food dashbourd single page
 
-[Live Project Link](https://maxjn-foodtemplate.pages.dev).
+[Live Project Link](https://maxjn-fooddashboard.pages.dev/).
 
 ###### Technologies
 
